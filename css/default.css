@@ -1,0 +1,44 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+ul {
+	padding: 0;
+	margin: 0;
+}
+li {
+	list-style: none;
+}
+a {
+	text-decoration: none !important;
+}
+p {
+	padding: 0;
+	margin: 0;
+	color: #666;
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 400;
+}
+h1,h2,h3,h4,h5,h6{
+	margin: 0;
+	padding: 0;
+	color: #444;
+	text-transform: uppercase;
+}
+
+h4 {
+	font-size: 18px;
+	font-weight: 600;
+	text-transform: uppercase;
+	padding-top: 14px;
+	padding-bottom: 15px;
+}
+img {
+	width: 100%;
+}
+
+

@@ -1,0 +1,467 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Multimart</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">  
+  <link rel="stylesheet" href="css/all.min.css">	
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/slicknav.min.css">
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/jquery.exzoom.css">
+  <link rel="stylesheet" href="css/default.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+ <!-- header -->
+ <header>
+   <div class="header_top">
+     <div class="container">
+       <div class="row">
+         <div class="col-lg-6">
+           <div class="header_top_left">
+             <ul>
+               <li>Welcome to our store</li>
+               <li>Extra 50% discount for your first order</li>
+             </ul>
+           </div>
+         </div>
+         <div class="col-lg-6">
+           <div class="header_top_right">
+             <ul>
+               <li><select name="" id="">
+                 <option value="">ENGLISH</option>
+                 <option value="">SPANISH</option>
+                 <option value="">F</option>
+               </select></li>
+               <li><select name="" id="">
+                 <option value="">USD</option>
+                 <option value="">TK</option>
+                 <option value="">EURO</option>
+               </select></li>
+               <li>
+                   <button type="button" data-toggle="modal" data-target="#login">login</button>
+               </li>
+               <li>
+                   <button type="button" data-toggle="modal" data-target="#register">Register</button>
+               </li>
+             </ul>
+           </div>
+         </div>
+       </div>
+     </div>
+   </div>
+
+   <!-- Button trigger modal -->
+
+
+<!-- Modal -->
+<div class="modal fade" id="login" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">please login here.</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="login_form">
+          <div class="form_label">
+            <p>username</p>
+          </div>
+          <div class="form_text">
+            <input type="text" name="user">
+          </div>
+        </div>
+        <div class="login_form">
+          <div class="form_label">
+            <p>password</p>
+          </div>
+          <div class="form_text">
+            <input type="password" name="pass">
+          </div>
+        </div>
+        <div class="form_btn">
+          <input type="submit" value="login">
+        </div>
+        <div class="login_other">
+          <p>Have not any account ? <a href="">register</a> here.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- register -->
+<div class="modal fade" id="register" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">create a new account here.</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="login_form">
+          <div class="form_label">
+            <p>name</p>
+          </div>
+          <div class="form_text">
+            <input type="text" name="name">
+          </div>
+        </div>
+        <div class="login_form">
+          <div class="form_label">
+            <p>username</p>
+          </div>
+          <div class="form_text">
+            <input type="text" name="username">
+          </div>
+        </div>
+        <div class="login_form">
+          <div class="form_label">
+            <p>password</p>
+          </div>
+          <div class="form_text">
+            <input type="password" name="pass">
+          </div>
+        </div>
+        <div class="login_form">
+          <div class="form_label">
+            <p>confirm password</p>
+          </div>
+          <div class="form_text">
+            <input type="password" name="con_pass">
+          </div>
+        </div>
+        <div class="form_btn">
+          <input type="submit" value="register">
+        </div>
+        <div class="form_other">
+          <p>already have an account? please <a href="">login</a> here.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+   <div class="header_btm">
+     <div class="container">
+       <div class="row">
+         <div class="col-lg-10">
+           <div class="logo">
+             <a href=""><img src="imgs/logo.png" alt=""></a>
+           </div>
+           <div class="mian_menu">
+             <ul>
+               <li><a href="index.html">home</a></li>
+               <li><a href="furnitures.html">furnitures</a></li>
+               <li><a href="furnitures.html">new furnitures</a></li>
+               <li><a href="index.html">about us</a></li>
+               <li><a href="contact.html">contact us</a></li>
+             </ul>
+           </div>
+         </div>
+         <div class="col-lg-2">
+           <div class="search_area">
+             <ul>
+               <li><i class="fas fa-search"></i></li>
+               <li><i class="fas fa-heart"></i></li>
+               <li><i class="fas fa-shopping-cart"></i>
+                  
+               </li>
+             </ul>
+           </div>
+         </div>
+       </div>
+     </div>
+   </div>
+ </header>
+
+<!-- furniture-detal -->
+<section class="furniture_detail">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6">
+        <div class="exzoom" id="furniture_detail_img">
+          <div class="exzoom_img_box">
+            <ul class='exzoom_img_ul'>
+              <li><img src="imgs/single.jpg"/></li>
+              <li><img src="imgs/single.jpg"/></li>
+              <li><img src="imgs/single.jpg"/></li>
+            </ul>
+          </div>
+          <div class="exzoom_nav"></div>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <div class="single_furniture_content">
+          <h2>furniture name</h2>
+          <h3>furniture code: </h3>
+          <h5><b>price : $253.00</b></h5>
+          <ul>
+            <li><b>Material</b> : Mild Steel</li>
+            <li><b>Color</b> : As picture</li>
+            <li><b>Dimension</b> : 206(L) x 169(W) x 120(H) cm</li>
+            <li><b>Delivery Area </b>: All over Bangladesh</li>
+            <li><b>Delivery Times</b> : 10-15 Working Days </li>
+          </ul>
+          <select name="" id="">
+            <option value="">Qunatity</option>
+            <option value="">1</option>
+            <option value="">2</option>
+            <option value="">3</option>
+            <option value="">4</option>
+            <option value="">5</option>
+            <option value="">6</option>
+            <option value="">7</option>
+            <option value="">8</option>
+            <option value="">9</option>
+            <option value="">10</option>
+            <option value="">11</option>
+            <option value="">12</option>
+          </select>
+          <div class="single_furniture_button">
+            <ul>
+              <li><a href="">add to cart</a></li>
+              <li><a href="">add to wishlist</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="single_description">
+          <ul>
+            <h3>Product details : </h3>
+            <li>- Made of mild steel welded channel framework that ensures high load bearing</li>
+            <li>- Zinc-phosphate coated electro-static epoxy powder oven baked paint finish that confirms anti-rust, shiny color and longevity.</li>
+            <li>- Fully knock down system</li>
+            <li>- Free fitting service by expert technicians.</li>
+            <li>- One Year Free Service warranty for any manufacturing fault.</li>
+          </ul>
+          <p><b>Delivery Condition:</b> For online purchase , Free home delivery is available for order amount above 3000 taka. When it is 3000 taka or less, then delivery charge is applicable. Inside Dhaka, it is 200 taka and outside dhaka, it is 500 taka. </p>
+          <p><b>Disclaimer:</b> The actual color of the physical product may slightly vary due to the deviation of lighting sources, photography or your device display settings.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="simillar_furniture">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="single_furniture_title">
+          <h2>similar furniture may you like</h2>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-3">
+        <div class="single_special_item">
+            <div class="single_pro_img">
+              <a href=""><img src="imgs/sp.jpg" alt=""></a>
+              <div class="single_pro_icon">
+                <ul>
+                  <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+                  <li><a href="#"><i class="fas fa-heart"></i></a></li>
+                  <li><a href="#"><i class="fas fa-balance-scale"></i></a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="spe_pro_content">
+              <a href="single-furniture.html">product name</a>
+              <p>$120.00</p>
+              <ul>
+                <li><i class="fas fa-star"></i></li>
+                <li><i class="fas fa-star"></i></li>
+                <li><i class="fas fa-star"></i></li>
+                <li><i class="fas fa-star"></i></li>
+                <li><i class="fas fa-star"></i></li>
+              </ul>
+            </div>
+          </div>
+      </div>
+      <div class="col-lg-3">
+        <div class="single_special_item">
+            <div class="single_pro_img">
+              <a href=""><img src="imgs/sp.jpg" alt=""></a>
+              <div class="single_pro_icon">
+                <ul>
+                  <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+                  <li><a href="#"><i class="fas fa-heart"></i></a></li>
+                  <li><a href="#"><i class="fas fa-balance-scale"></i></a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="spe_pro_content">
+              <a href="single-furniture.html">product name</a>
+              <p>$120.00</p>
+              <ul>
+                <li><i class="fas fa-star"></i></li>
+                <li><i class="fas fa-star"></i></li>
+                <li><i class="fas fa-star"></i></li>
+                <li><i class="fas fa-star"></i></li>
+                <li><i class="fas fa-star"></i></li>
+              </ul>
+            </div>
+          </div>
+      </div>
+      <div class="col-lg-3">
+        <div class="single_special_item">
+            <div class="single_pro_img">
+              <a href=""><img src="imgs/sp.jpg" alt=""></a>
+              <div class="single_pro_icon">
+                <ul>
+                  <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+                  <li><a href="#"><i class="fas fa-heart"></i></a></li>
+                  <li><a href="#"><i class="fas fa-balance-scale"></i></a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="spe_pro_content">
+              <a href="single-furniture.html">product name</a>
+              <p>$120.00</p>
+              <ul>
+                <li><i class="fas fa-star"></i></li>
+                <li><i class="fas fa-star"></i></li>
+                <li><i class="fas fa-star"></i></li>
+                <li><i class="fas fa-star"></i></li>
+                <li><i class="fas fa-star"></i></li>
+              </ul>
+            </div>
+          </div>
+      </div>
+      <div class="col-lg-3">
+        <div class="single_special_item">
+            <div class="single_pro_img">
+              <a href=""><img src="imgs/sp.jpg" alt=""></a>
+              <div class="single_pro_icon">
+                <ul>
+                  <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+                  <li><a href="#"><i class="fas fa-heart"></i></a></li>
+                  <li><a href="#"><i class="fas fa-balance-scale"></i></a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="spe_pro_content">
+              <a href="single-furniture.html">product name</a>
+              <p>$120.00</p>
+              <ul>
+                <li><i class="fas fa-star"></i></li>
+                <li><i class="fas fa-star"></i></li>
+                <li><i class="fas fa-star"></i></li>
+                <li><i class="fas fa-star"></i></li>
+                <li><i class="fas fa-star"></i></li>
+              </ul>
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="footer_top">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-5">
+          <div class="footer_logo_area">
+            <img src="imgs/logo.png" alt="logo">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, tenetur.</p>
+            <ul>
+              <li><a href=""><i class="fab fa-cc-visa"></i></a></li>
+              <li><a href=""><i class="fab fa-cc-visa"></i></a></li>
+              <li><a href=""><i class="fab fa-cc-visa"></i></a></li>
+              <li><a href=""><i class="fab fa-cc-visa"></i></a></li>
+              <li><a href=""><i class="fab fa-cc-visa"></i></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-2">
+          <div class="quick_link">
+            <h4>my acconunt</h4>
+            <ul>
+              <li><a href="#">contact us </a></li>
+              <li><a href="#">about us</a></li>
+              <li><a href="#">term &amp; conditions</a></li>
+              <li><a href="#">retuns &amp; exchenges</a></li>
+              <li><a href="#">shipping &amp; delivery</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-2">
+          <div class="quick_link">
+            <h4>quick link</h4>
+            <ul>
+              <li><a href="#">store location</a></li>
+              <li><a href="#">my account</a></li>
+              <li><a href="#">orders tracking</a></li>
+              <li><a href="#">size guide</a></li>
+              <li><a href="#">FAQ</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="footer_contact">
+            <h4>contact us</h4>
+            <ul>
+              <li><span><i class="fas fa-map-marker"></i></span> Multimart demo Store Demo Store India-3654123</li>
+              <li><span><i class="fas fa-map-marker"></i></span> Call Us: 123-456-7898</li>
+              <li><span><i class="fas fa-map-marker"></i></span> Email Us: Support@Mycart.com</li>
+              <li><span><i class="fas fa-map-marker"></i></span> Fax: 123456</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer_btm">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="copy_right">
+            <p>&copy;Copy Right by Themeforest Powered by pixel strap</p>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="footer_social_icon">
+            <ul>
+              <li id="follow_us">follow us : </li>
+              <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+              <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+              <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+              <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+              <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+  <script src="js/vendor/modernizr-3.6.0.min.js"></script>
+  <script src="js/jquery-1.12.4.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.slicknav.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.exzoom.js"></script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+
+</body>
+
+</html>

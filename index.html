@@ -1,0 +1,810 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Multimart</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">  
+  <link rel="stylesheet" href="css/all.min.css">	
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/slicknav.min.css">
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/default.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+ <!-- header -->
+ <header>
+   <div class="header_top">
+     <div class="container">
+       <div class="row">
+         <div class="col-lg-6">
+           <div class="header_top_left">
+             <ul>
+               <li>Welcome to our store</li>
+               <li>Extra 50% discount for your first order</li>
+             </ul>
+           </div>
+         </div>
+         <div class="col-lg-6">
+           <div class="header_top_right">
+             <ul>
+               <li><select name="" id="">
+                 <option value="">ENGLISH</option>
+                 <option value="">SPANISH</option>
+                 <option value="">F</option>
+               </select></li>
+               <li><select name="" id="">
+                 <option value="">USD</option>
+                 <option value="">TK</option>
+                 <option value="">EURO</option>
+               </select></li>
+               <li>
+                   <button type="button" data-toggle="modal" data-target="#login">login</button>
+               </li>
+               <li>
+                   <button type="button" data-toggle="modal" data-target="#register">Register</button>
+               </li>
+             </ul>
+           </div>
+         </div>
+       </div>
+     </div>
+   </div>
+
+   <!-- Button trigger modal -->
+
+
+<!-- Modal -->
+<div class="modal fade" id="login" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">please login here.</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="login_form">
+          <div class="form_label">
+            <p>username</p>
+          </div>
+          <div class="form_text">
+            <input type="text" name="user">
+          </div>
+        </div>
+        <div class="login_form">
+          <div class="form_label">
+            <p>password</p>
+          </div>
+          <div class="form_text">
+            <input type="password" name="pass">
+          </div>
+        </div>
+        <div class="form_btn">
+          <input type="submit" value="login">
+        </div>
+        <div class="login_other">
+          <p>Have not any account ? <a href="">register</a> here.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- register -->
+<div class="modal fade" id="register" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">create a new account here.</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="login_form">
+          <div class="form_label">
+            <p>name</p>
+          </div>
+          <div class="form_text">
+            <input type="text" name="name">
+          </div>
+        </div>
+        <div class="login_form">
+          <div class="form_label">
+            <p>username</p>
+          </div>
+          <div class="form_text">
+            <input type="text" name="username">
+          </div>
+        </div>
+        <div class="login_form">
+          <div class="form_label">
+            <p>password</p>
+          </div>
+          <div class="form_text">
+            <input type="password" name="pass">
+          </div>
+        </div>
+        <div class="login_form">
+          <div class="form_label">
+            <p>confirm password</p>
+          </div>
+          <div class="form_text">
+            <input type="password" name="con_pass">
+          </div>
+        </div>
+        <div class="form_btn">
+          <input type="submit" value="register">
+        </div>
+        <div class="form_other">
+          <p>already have an account? please <a href="">login</a> here.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+   <div class="header_btm">
+     <div class="container">
+       <div class="row">
+         <div class="col-lg-10">
+           <div class="logo">
+             <a href=""><img src="imgs/logo.png" alt=""></a>
+           </div>
+           <div class="mian_menu">
+             <ul>
+               <li><a href="index.html">home</a></li>
+               <li><a href="furnitures.html">furnitures</a></li>
+               <li><a href="furnitures.html">new furnitures</a></li>
+               <li><a href="index.html">about us</a></li>
+               <li><a href="contact.html">contact us</a></li>
+             </ul>
+           </div>
+         </div>
+         <div class="col-lg-2">
+           <div class="search_area">
+             <ul>
+               <li><i class="fas fa-search"></i></li>
+               <li><i class="fas fa-heart"></i></li>
+               <li><i class="fas fa-shopping-cart"></i>
+                  
+               </li>
+             </ul>
+           </div>
+         </div>
+       </div>
+     </div>
+   </div>
+ </header>
+ <!-- slider -->
+ <section class="slider_area owl-carousel owl-theme">
+   <div class="single_slide" style="background-image: url(imgs/slide1.jpg);">
+     <div class="container">
+       <div class="row">
+         <div class="col-lg-6">
+           <div class="slider_content">
+             <h2>new items</h2>
+             <h1>modern sofa</h1>
+             <h3>Lorem ipsum dolor sit amet.</h3>
+             <a href="#">shop now</a>
+           </div>
+         </div>
+       </div>
+     </div>
+   </div>
+   <div class="single_slide" style="background-image: url(imgs/slide2.jpg);">
+     <div class="container">
+       <div class="row">
+         <div class="col-lg-6">
+           <div class="slider_content">
+             <h2>new items</h2>
+             <h1>modern sofa</h1>
+             <h3>Lorem ipsum dolor sit amet.</h3>
+             <a href="#">shop now</a>
+           </div>
+         </div>
+       </div>
+     </div>
+   </div>
+   <div class="single_slide" style="background-image: url(imgs/slide3.jpg);">
+     <div class="container">
+       <div class="row">
+         <div class="col-lg-6">
+           <div class="slider_content">
+             <h2>new items</h2>
+             <h1>modern sofa</h1>
+             <h3>Lorem ipsum dolor sit amet.</h3>
+             <a href="#">shop now</a>
+           </div>
+         </div>
+       </div>
+     </div>
+   </div>
+ </section>
+<section class="top_category_area">
+  <div class="category_title">
+    <h2>top category</h2>
+  </div>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="category_slider owl-carousel">
+          <div class="single_category" style="background-image: url(imgs/cat.jpg);">
+            <a href="">new sofa</a>
+          </div>
+          <div class="single_category" style="background-image: url(imgs/cat2.jpg);">
+            <a href="">nice beds</a>
+          </div>
+          <div class="single_category" style="background-image: url(imgs/cat3.jpg);">
+            <a href="">chairs</a>
+          </div>
+          <div class="single_category" style="background-image: url(imgs/cat2.jpg);">
+            <a href="">nice beds</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- special products -->
+<section class="special_product_area">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="special_pro_title">
+          <h2>special products</h2>
+        </div>
+      </div> 
+    </div>
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="special_pro_slider owl-carousel">
+          <div class="single_special_item">
+            <div class="single_pro_img">
+              <a href=""><img src="imgs/sp.jpg" alt=""></a>
+              <div class="single_pro_icon">
+                <ul>
+                  <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+                  <li><a href="#"><i class="fas fa-heart"></i></a></li>
+                  <li><a href="#"><i class="fas fa-balance-scale"></i></a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="spe_pro_content">
+              <a href="single-furniture.html">product name</a>
+              <p>$120.00</p>
+              <ul>
+                <li><i class="fas fa-star"></i></li>
+                <li><i class="fas fa-star"></i></li>
+                <li><i class="fas fa-star"></i></li>
+                <li><i class="fas fa-star"></i></li>
+                <li><i class="fas fa-star"></i></li>
+              </ul>
+            </div>
+          </div>
+          <div class="single_special_item">
+            <div class="single_pro_img">
+              <a href=""><img src="imgs/sp.jpg" alt=""></a>
+              <div class="single_pro_icon">
+                <ul>
+                  <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+                  <li><a href="#"><i class="fas fa-heart"></i></a></li>
+                  <li><a href="#"><i class="fas fa-balance-scale"></i></a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="spe_pro_content">
+              <a href="single-furniture.html">product name</a>
+              <p>$120.00</p>
+              <ul>
+                <li><i class="fas fa-star"></i></li>
+                <li><i class="fas fa-star"></i></li>
+                <li><i class="fas fa-star"></i></li>
+                <li><i class="fas fa-star"></i></li>
+                <li><i class="fas fa-star"></i></li>
+              </ul>
+            </div>
+          </div>
+          <div class="single_special_item">
+            <div class="single_pro_img">
+              <a href=""><img src="imgs/sp.jpg" alt=""></a>
+              <div class="single_pro_icon">
+                <ul>
+                  <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+                  <li><a href="#"><i class="fas fa-heart"></i></a></li>
+                  <li><a href="#"><i class="fas fa-balance-scale"></i></a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="spe_pro_content">
+              <a href="single-furniture.html">product name</a>
+              <p>$120.00</p>
+              <ul>
+                <li><i class="fas fa-star"></i></li>
+                <li><i class="fas fa-star"></i></li>
+                <li><i class="fas fa-star"></i></li>
+                <li><i class="fas fa-star"></i></li>
+                <li><i class="fas fa-star"></i></li>
+              </ul>
+            </div>
+          </div>
+          <div class="single_special_item">
+            <div class="single_pro_img">
+              <a href=""><img src="imgs/sp.jpg" alt=""></a>
+              <div class="single_pro_icon">
+                <ul>
+                  <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+                  <li><a href="#"><i class="fas fa-heart"></i></a></li>
+                  <li><a href="#"><i class="fas fa-balance-scale"></i></a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="spe_pro_content">
+              <a href="single-furniture.html">product name</a>
+              <p>$120.00</p>
+              <ul>
+                <li><i class="fas fa-star"></i></li>
+                <li><i class="fas fa-star"></i></li>
+                <li><i class="fas fa-star"></i></li>
+                <li><i class="fas fa-star"></i></li>
+                <li><i class="fas fa-star"></i></li>
+              </ul>
+            </div>
+          </div>
+          <div class="single_special_item">
+            <div class="single_pro_img">
+              <a href=""><img src="imgs/sp.jpg" alt=""></a>
+              <div class="single_pro_icon">
+                <ul>
+                  <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+                  <li><a href="#"><i class="fas fa-heart"></i></a></li>
+                  <li><a href="#"><i class="fas fa-balance-scale"></i></a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="spe_pro_content">
+              <a href="single-furniture.html">product name</a>
+              <p>$120.00</p>
+              <ul>
+                <li><i class="fas fa-star"></i></li>
+                <li><i class="fas fa-star"></i></li>
+                <li><i class="fas fa-star"></i></li>
+                <li><i class="fas fa-star"></i></li>
+                <li><i class="fas fa-star"></i></li>
+              </ul>
+            </div>
+          </div>
+          <div class="single_special_item">
+            <div class="single_pro_img">
+              <a href=""><img src="imgs/sp.jpg" alt=""></a>
+              <div class="single_pro_icon">
+                <ul>
+                  <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+                  <li><a href="#"><i class="fas fa-heart"></i></a></li>
+                  <li><a href="#"><i class="fas fa-balance-scale"></i></a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="spe_pro_content">
+              <a href="#">product name</a>
+              <p>$120.00</p>
+              <ul>
+                <li><i class="fas fa-star"></i></li>
+                <li><i class="fas fa-star"></i></li>
+                <li><i class="fas fa-star"></i></li>
+                <li><i class="fas fa-star"></i></li>
+                <li><i class="fas fa-star"></i></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- new furniture -->
+<section class="new_furniture_area text-center">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="new_furniture" style="background-image: url(imgs/new.jpg);">
+          <a href="#">
+            <h2>new furniture</h2>
+            <h3>comfortable for seating</h3>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="hot_deal_area">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-3">
+        <div class="total_tranding_area">
+        <div class="trending_title">
+          <h3>trending products</h3>
+        </div>
+        <div class="trending_product owl-carousel">
+          <div class="tren_single_item">
+            <div class="trending_iner_item">
+              <div class="tren_media">
+                <a href="#"><img src="imgs/trend.jpg" alt=""></a>
+              </div>
+              <div class="tren_content">
+                <h3>product name</h3>
+                <h4>$50.00</h4>
+                <ul>
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="fas fa-star"></i></li>
+                </ul>
+              </div>
+            </div>
+            <div class="trending_iner_item">
+              <div class="tren_media">
+                <a href="#"><img src="imgs/trend.jpg" alt=""></a>
+              </div>
+              <div class="tren_content">
+                <h3>product name</h3>
+                <h4>$50.00</h4>
+                <ul>
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="fas fa-star"></i></li>
+                </ul>
+              </div>
+            </div>
+            <div class="trending_iner_item">
+              <div class="tren_media">
+                <a href="#"><img src="imgs/trend.jpg" alt=""></a>
+              </div>
+              <div class="tren_content">
+                <h3>product name</h3>
+                <h4>$50.00</h4>
+                <ul>
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="fas fa-star"></i></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="tren_single_item">
+            <div class="trending_iner_item">
+              <div class="tren_media">
+                <a href="#"><img src="imgs/trend.jpg" alt=""></a>
+              </div>
+              <div class="tren_content">
+                <h3>product name</h3>
+                <h4>$50.00</h4>
+                <ul>
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="fas fa-star"></i></li>
+                </ul>
+              </div>
+            </div>
+            <div class="trending_iner_item">
+              <div class="tren_media">
+                <a href="#"><img src="imgs/trend.jpg" alt=""></a>
+              </div>
+              <div class="tren_content">
+                <h3>product name</h3>
+                <h4>$50.00</h4>
+                <ul>
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="fas fa-star"></i></li>
+                </ul>
+              </div>
+            </div>
+            <div class="trending_iner_item">
+              <div class="tren_media">
+                <a href="#"><img src="imgs/trend.jpg" alt=""></a>
+              </div>
+              <div class="tren_content">
+                <h3>product name</h3>
+                <h4>$50.00</h4>
+                <ul>
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="fas fa-star"></i></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+      <div class="col-lg-6">
+        <div class="total_tranding_area">
+        <div class="trending_title">
+          <h3>today's hot sell products</h3>
+        </div>
+        <div class="hot_sell owl-carousel">
+          <div class="tren_single_item">
+            <div class="trending_iner_item">
+              <div class="tren_media">
+                <a href="#"><img src="imgs/trend.jpg" alt=""></a>
+              </div>
+              <div class="tren_content">
+                <h3>product name</h3>
+                <h4>$50.00</h4>
+                <ul>
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="fas fa-star"></i></li>
+                </ul>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis quos, reiciendis accusamus.</p>
+              </div>
+            </div>
+          </div>
+          <div class="tren_single_item">
+            <div class="trending_iner_item">
+              <div class="tren_media">
+                <a href="#"><img src="imgs/trend.jpg" alt=""></a>
+              </div>
+              <div class="tren_content">
+                <h3>product name</h3>
+                <h4>$50.00</h4>
+                <ul>
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="fas fa-star"></i></li>
+                </ul>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis quos, reiciendis accusamus.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3">
+        <div class="total_tranding_area">
+        <div class="trending_title">
+          <h3>offer products</h3>
+        </div>
+        <div class="trending_product owl-carousel">
+          <div class="tren_single_item">
+            <div class="trending_iner_item">
+              <div class="tren_media">
+                <a href="#"><img src="imgs/trend.jpg" alt=""></a>
+              </div>
+              <div class="tren_content">
+                <h3>product name</h3>
+                <h4>$50.00</h4>
+                <ul>
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="fas fa-star"></i></li>
+                </ul>
+              </div>
+            </div>
+            <div class="trending_iner_item">
+              <div class="tren_media">
+                <a href="#"><img src="imgs/trend.jpg" alt=""></a>
+              </div>
+              <div class="tren_content">
+                <h3>product name</h3>
+                <h4>$50.00</h4>
+                <ul>
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="fas fa-star"></i></li>
+                </ul>
+              </div>
+            </div>
+            <div class="trending_iner_item">
+              <div class="tren_media">
+                <a href="#"><img src="imgs/trend.jpg" alt=""></a>
+              </div>
+              <div class="tren_content">
+                <h3>product name</h3>
+                <h4>$50.00</h4>
+                <ul>
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="fas fa-star"></i></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="tren_single_item">
+            <div class="trending_iner_item">
+              <div class="tren_media">
+                <a href="#"><img src="imgs/trend.jpg" alt=""></a>
+              </div>
+              <div class="tren_content">
+                <h3>product name</h3>
+                <h4>$50.00</h4>
+                <ul>
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="fas fa-star"></i></li>
+                </ul>
+              </div>
+            </div>
+            <div class="trending_iner_item">
+              <div class="tren_media">
+                <a href="#"><img src="imgs/trend.jpg" alt=""></a>
+              </div>
+              <div class="tren_content">
+                <h3>product name</h3>
+                <h4>$50.00</h4>
+                <ul>
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="fas fa-star"></i></li>
+                </ul>
+              </div>
+            </div>
+            <div class="trending_iner_item">
+              <div class="tren_media">
+                <a href="#"><img src="imgs/trend.jpg" alt=""></a>
+              </div>
+              <div class="tren_content">
+                <h3>product name</h3>
+                <h4>$50.00</h4>
+                <ul>
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="fas fa-star"></i></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+</section>
+
+<section class="newsletter_bg">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="our_newsletter_area">
+          <h2>subscribed our newsletter</h2>
+          <div class="newsletter_form">
+            <input type="email" name="newsletter" placeholder="email">
+            <div class="newsletter_icon">
+              <i class="fas fa-paper-plane"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="footer_top">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-5">
+          <div class="footer_logo_area">
+            <img src="imgs/logo.png" alt="logo">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, tenetur.</p>
+            <ul>
+              <li><a href=""><i class="fab fa-cc-visa"></i></a></li>
+              <li><a href=""><i class="fab fa-cc-visa"></i></a></li>
+              <li><a href=""><i class="fab fa-cc-visa"></i></a></li>
+              <li><a href=""><i class="fab fa-cc-visa"></i></a></li>
+              <li><a href=""><i class="fab fa-cc-visa"></i></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-2">
+          <div class="quick_link">
+            <h4>my acconunt</h4>
+            <ul>
+              <li><a href="#">contact us </a></li>
+              <li><a href="#">about us</a></li>
+              <li><a href="#">term &amp; conditions</a></li>
+              <li><a href="#">retuns &amp; exchenges</a></li>
+              <li><a href="#">shipping &amp; delivery</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-2">
+          <div class="quick_link">
+            <h4>quick link</h4>
+            <ul>
+              <li><a href="#">store location</a></li>
+              <li><a href="#">my account</a></li>
+              <li><a href="#">orders tracking</a></li>
+              <li><a href="#">size guide</a></li>
+              <li><a href="#">FAQ</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="footer_contact">
+            <h4>contact us</h4>
+            <ul>
+              <li><span><i class="fas fa-map-marker"></i></span> Multimart demo Store Demo Store India-3654123</li>
+              <li><span><i class="fas fa-map-marker"></i></span> Call Us: 123-456-7898</li>
+              <li><span><i class="fas fa-map-marker"></i></span> Email Us: Support@Mycart.com</li>
+              <li><span><i class="fas fa-map-marker"></i></span> Fax: 123456</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer_btm">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="copy_right">
+            <p>&copy;Copy Right by Themeforest Powered by pixel strap</p>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="footer_social_icon">
+            <ul>
+              <li id="follow_us">follow us : </li>
+              <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+              <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+              <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+              <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+              <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+  <script src="js/vendor/modernizr-3.6.0.min.js"></script>
+  <script src="js/jquery-1.12.4.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.slicknav.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.exzoom.js"></script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+
+</body>
+
+</html>
